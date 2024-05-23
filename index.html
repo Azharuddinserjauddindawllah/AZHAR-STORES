@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Azhar Stores</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Azhar Stores</h1>
+        <button onclick="viewOrders()">My Orders</button>
+        <div class="search-container">
+            <input type="text" id="search-bar" placeholder="Search...">
+            <button onclick="searchProducts()">Search</button>
+        </div>
+    </header>
+    <div class="products">
+        <div class="product">
+            <img src="Jam.jpg" alt="Jam">
+            <h3>Jam</h3>
+            <p>$10.00</p>
+            <input type="number" id="quantity1" value="1" min="1">
+            <button onclick="addToCart('Jam', 10, document.getElementById('quantity1').value)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="Jam1.jpg" alt="Jam">
+            <h3>Jam</h3>
+            <p>$10.00</p>
+            <input type="number" id="quantity2" value="1" min="1">
+            <button onclick="addToCart('Jam', 10, document.getElementById('quantity2').value)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="Pasta.jpg" alt="Pasta">
+            <h3>Pasta</h3>
+            <p>$5.00</p>
+            <input type="number" id="quantity3" value="1" min="1">
+            <button onclick="addToCart('Pasta', 5, document.getElementById('quantity3').value)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="Pasta1.jpg" alt="Pasta">
+            <h3>Pasta</h3>
+            <p>$5.00</p>
+            <input type="number" id="quantity4" value="1" min="1">
+            <button onclick="addToCart('Pasta', 5, document.getElementById('quantity4').value)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="Pasta2.jpg" alt="Pasta">
+            <h3>Pasta</h3>
+            <p>$5.00</p>
+            <input type="number" id="quantity5" value="1" min="1">
+            <button onclick="addToCart('Pasta', 5, document.getElementById('quantity5').value)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="Pasta3.jpg" alt="Pasta">
+            <h3>Pasta</h3>
+            <p>$5.00</p>
+            <input type="number" id="quantity6" value="1" min="1">
+            <button onclick="addToCart('Pasta', 5, document.getElementById('quantity6').value)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="Pasta4.jpg" alt="Pasta">
+            <h3>Pasta</h3>
+            <p>$5.00</p>
+            <input type="number" id="quantity7" value="1" min="1">
+            <button onclick="addToCart('Pasta', 5, document.getElementById('quantity7').value)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="Ghee.jpg" alt="Ghee">
+            <h3>Ghee</h3>
+            <p>$15.00</p>
+            <input type="number" id="quantity8" value="1" min="1">
+            <button onclick="addToCart('Ghee', 15, document.getElementById('quantity8').value)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="Gawa-Ghee.png" alt="Gawa Ghee">
+            <h3>Gawa Ghee</h3>
+            <p>$18.00</p>
+            <input type="number" id="quantity9" value="1" min="1">
+            <button onclick="addToCart('Gawa Ghee', 18, document.getElementById('quantity9').value)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="Paneer.jpg" alt="Paneer">
+            <h3>Paneer</h3>
+            <p>$8.00</p>
+            <input type="number" id="quantity10" value="1" min="1">
+            <button onclick="addToCart('Paneer', 8, document.getElementById('quantity10').value)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="Squash.jpg" alt="Squash">
+            <h3>Squash</h3>
+            <p>$4.00</p>
+            <input type="number" id="quantity11" value="1" min="1">
+            <button onclick="addToCart('Squash', 4, document.getElementById('quantity11').value)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="Squash1.jpg" alt="Squash">
+            <h3>Squash</h3>
+            <p>$4.00</p>
+            <input type="number" id="quantity12" value="1" min="1">
+            <button onclick="addToCart('Squash', 4, document.getElementById('quantity12').value)">Add to Cart</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
